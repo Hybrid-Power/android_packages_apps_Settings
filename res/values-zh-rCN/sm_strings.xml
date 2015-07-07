@@ -60,6 +60,14 @@
   <string name="recents_clear_all_location_bottom_center">下方中央</string>
   <string name="recents_clear_all_dismiss_all_title">清理所有任务</string>
   <string name="recents_clear_all_dismiss_all_summary">选择是否要忽略清理所有前台任务</string> 
+  <string name="volume_steps_title">音量总阀值</string>
+  <string name="volume_steps_alarm_title">闹钟</string>
+  <string name="volume_steps_dtmf_title">DTMF</string>
+  <string name="volume_steps_music_title">媒体</string>
+  <string name="volume_steps_notification_title">通知</string>
+  <string name="volume_steps_ring_title">铃声</string>
+  <string name="volume_steps_system_title">系统</string>
+  <string name="volume_steps_voice_call_title">语音通话</string>
   <string name="show_chinese_date">锁屏显示农历</string>
   <string name="carrier_options">运营商名称</string>
   <string name="show_status_bar_carrier_title">运营商名称</string>
