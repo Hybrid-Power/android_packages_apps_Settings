@@ -27,7 +27,7 @@
     <string name="network_traffic_title">状态栏网速</string>
     <string name="show_network_traffic_state">状态栏网速显示</string>
     <string name="show_network_traffic_unit">数据单位</string>
-    <string name="show_network_traffic_frequency">Update interval</string>
+    <string name="show_network_traffic_frequency">刷新频率</string>
     <string name="show_network_traffic_disable">禁止</string>
     <string name="show_network_traffic_up">上传</string>
     <string name="show_network_traffic_down">下载</string>
@@ -41,5 +41,10 @@
     <string name="network_traffic_autohide">自动隐藏</string>
     <string name="network_traffic_autohide_summary">当无网络活动时自动隐藏状态栏网速</string>
     <string name="network_traffic_autohide_threshold">隐藏阀值</string>
+  <string name="kill_app_longpress_timeout_title">返回键强行关闭延迟</string>
+  <string name="timeout_2000">2s (默认)</string>
+  <string name="timeout_1500">1.5s</string>
+  <string name="timeout_1000">1s</string>
+  <string name="timeout_500">0.5s</string>
 
 </resources>
