@@ -22,4 +22,7 @@
     <string name="captive_portal_server_notset">Not Set Server</string>
     <string name="captive_portal_server_explain">Set captive portal server.You need to reboot your device.</string>
 
+  <!-- Superuser indicator-->
+  <string name="su_indicator">Superuser indicator</string>
+  <string name="su_indicator_summary">Show superuser indicator when a session is active</string>
 </resources>
