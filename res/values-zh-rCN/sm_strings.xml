@@ -41,10 +41,20 @@
     <string name="network_traffic_autohide">自动隐藏</string>
     <string name="network_traffic_autohide_summary">当无网络活动时自动隐藏状态栏网速</string>
     <string name="network_traffic_autohide_threshold">隐藏阀值</string>
-  <string name="kill_app_longpress_timeout_title">返回键强行关闭延迟</string>
-  <string name="timeout_2000">2s (默认)</string>
-  <string name="timeout_1500">1.5s</string>
-  <string name="timeout_1000">1s</string>
-  <string name="timeout_500">0.5s</string>
+    <string name="kill_app_longpress_timeout_title">返回键强行关闭延迟</string>
+    <string name="timeout_2000">2s (默认)</string>
+    <string name="timeout_1500">1.5s</string>
+    <string name="timeout_1000">1s</string>
+    <string name="timeout_500">0.5s</string>
+    <string name="show_status_bar_carrier_title">运营商名称</string>
+    <string name="show_status_bar_carrier_summary">在状态栏显示运营商名称</string>
+    <string name="custom_carrier_label_title">自定义运营商名称</string>
+    <string name="custom_carrier_label_explain">请输入新的运营商名称，留空为恢复默认运营商名称。</string>
+    <string name="custom_carrier_label_notset">当前没有设置运营商名称</string>
+    <string name="show_carrier_speed_title">运营商字体大小</string>
+    <string name="carrier_size_style_normal">正常</string>
+    <string name="carrier_size_style_small">小</string>
+    <string name="carrier_size_style_big">大</string>
+    <string name="carrier_category">运营商自定义</string>
 
 </resources>
