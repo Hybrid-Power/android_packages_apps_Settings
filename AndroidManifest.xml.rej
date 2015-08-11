@@ -1,0 +1,20 @@
+--- packages/apps/Settings/AndroidManifest.xml
++++ packages/apps/Settings/AndroidManifest.xml
+@@ -2448,7 +2448,7 @@
+             android:excludeFromRecents="true" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+-                <category android:name="android.intent.category.LAUNCHER" />
++                <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+         </activity>
+ 
+@@ -2459,7 +2459,7 @@
+             android:excludeFromRecents="true" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+-                <category android:name="android.intent.category.LAUNCHER" />
++                <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+         </activity>
+ 
