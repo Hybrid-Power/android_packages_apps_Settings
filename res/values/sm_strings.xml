@@ -90,7 +90,6 @@
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="status_bar_carrier_color">Carrier label color</string>
 
-
     <!-- Lockscreen weather -->
     <string name="lock_screen_weather_settings_title"><b>Lock screen weather</b></string>
     <string name="lock_screen_weather_settings_title_summary">Customize Lock screen weather panel</string>
@@ -134,4 +133,8 @@
     <string name="colors_title">Colors</string>
     <string name="text_title">Text</string>
     <string name="reset">Reset</string>
+
+    <!-- Headphones icon switch -->
+    <string name="show_headset_icon_title">Headset icon</string>
+    <string name="show_headset_icon_summary">Shows icon when headsets are connected.</string>
 </resources>
