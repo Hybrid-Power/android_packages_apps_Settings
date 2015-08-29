@@ -44,6 +44,8 @@
     <string name="network_traffic_autohide">Auto hide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_hide_arrow">Hide arrows</string>
+    <string name="network_traffic_hide_arrow_summary">Hide the traffic arrow indicator</string>
 
     <!-- long press back to kill configurable timeout -->
     <string name="kill_app_longpress_timeout_title">Long press timeout</string>
