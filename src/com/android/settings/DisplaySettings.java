@@ -238,7 +238,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
 
         mDozeFragement = (PreferenceScreen) findPreference(KEY_DOZE_FRAGMENT);
-        if (mDozeFragement == null || !isDozeAvailable(activity)) {
+        if (mDozeFragement == null || !Utils.isDozeAvailable(activity)) {
             if (displayPrefs != null && mDozeFragement != null) {
             displayPrefs.removePreference(mDozeFragement);
             mDozeFragement = null;
