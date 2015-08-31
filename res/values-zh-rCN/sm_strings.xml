@@ -40,6 +40,8 @@
   <string name="show_network_traffic_2000">2秒</string>
   <string name="network_traffic_autohide">自动隐藏</string>
   <string name="network_traffic_autohide_summary">当无网络活动时自动隐藏状态栏网速</string>
+  <string name="network_traffic_hide_arrow">隐藏箭头</string>
+  <string name="network_traffic_hide_arrow_summary">隐藏网速箭头指示器</string>
   <string name="network_traffic_autohide_threshold">隐藏阀值</string>
   <string name="kill_app_longpress_timeout_title">返回键强行关闭延迟</string>
   <string name="timeout_2000">2s (默认)</string>
