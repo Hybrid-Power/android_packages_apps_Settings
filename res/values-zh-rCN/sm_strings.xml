@@ -188,5 +188,7 @@
   <string name="heads_up_time_out_8sec"> 8 秒</string>
   <string name="heads_up_time_out_10sec"> 10 秒</string>
   <string name="heads_up_time_out_never">从不</string>
+  <string name="hardware_keys_action_screenshot">屏幕截图</string>
+  <string name="hardware_keys_action_reboot_menu">高级重启</string>
 
 </resources>
