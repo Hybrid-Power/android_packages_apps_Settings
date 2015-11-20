@@ -1857,6 +1857,20 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="Settings$ContributorsCloudActivity"
+                android:label="@string/contributors_cloud_fragment_title"
+                android:windowSoftInputMode="stateHidden|adjustNothing"
+                android:taskAffinity=""
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.settings.CONTRIBUTORS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.contributors.ContributorsCloudFragment" />
+        </activity>
+
         <!-- CyanogenMod activities End -->
 
         <activity android:name=".cyanogenmod.SpamList" />
@@ -2352,25 +2366,6 @@
                 <action android:name="cyanogenmod.intent.action.PACKAGE_PROTECTED" />
             </intent-filter>
         </receiver>
-
-        <activity android:name=".applications.ProtectedAppsActivity"
-                  android:label="@string/protected_apps"
-                  android:excludeFromRecents="true"
-                  android:configChanges="orientation">
-            <intent-filter>
-                <action android:name=".applications.ProtectedAppsActivity" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".applications.LockPatternActivity"
-                  android:label="@string/protected_apps"
-                  android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name=".applications.LockPatternActivity" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
 
         <receiver android:name=".profiles.SetupDefaultProfileReceiver">
             <intent-filter>

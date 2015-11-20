@@ -250,6 +250,7 @@
   <string name="privacy_guard_reset_text">Obnovit oprávnění?</string>
   <string name="privacy_guard_help_text">Na této obrazovce můžete vybrat, která aplikace má být sledována Ochranou soukromí. Zvolené aplikace nebudou mít umožněno přistupovat k soukromím údajům, jako jsou kontakty, zprávy nebo seznamy hovorů. Dlouhým stiskem na dané aplikaci se zobrazí její systémové informace.\n\nVe výchozím stavu se systémové aplikace nezobrazují. Pokud chcete zobrazit i systémové aplikace, vyberte danou volbu z nabídky.</string>
   <string name="privacy_guard_manager_show_system_apps">Zobrazit systémové aplikace</string>
+  <string name="privacy_guard_notification_title">Zobrazit upozornění</string>
   <string name="app_ops_btn_text">Změnit</string>
   <string name="increasing_ring_volume_option_title">Zvyšující se hlasitost vyzvánění</string>
   <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
@@ -343,11 +344,13 @@
   <string name="notification_light_default_value">Výchozí</string>
   <string name="notification_light_missed_call_title">Zmeškané hovory</string>
   <string name="notification_light_voicemail_title">Hlasová schránka</string>
+  <string name="notification_light_screen_on">Upozornění LED při zapnuté obrazovce</string>
+  <string name="keywords_lights_brightness_level">ztlumit jas LED diod</string>
   <string name="notification_ringtone_title_cm">Zvuk upozornění</string>
   <string name="headset_connect_player_title">Spustit aplikaci pro přehrávání hudby</string>
   <string name="headset_connect_player_summary">Pokud jsou připojena sluchátka, spustit výchozí aplikaci pro přehrávání hudby</string>
-  <string name="ime_switcher_notify">Výběr ikony</string>
-  <string name="ime_switcher_notify_summary">Zobrazit vstupní metodu výběrové ikony</string>
+  <string name="ime_switcher_notify">Ikona pro volbu</string>
+  <string name="ime_switcher_notify_summary">Zobrazit ikonu volby vstupní metody</string>
   <string name="app_notification_show_on_keyguard_title">Zobrazit na zamykací obrazovce</string>
   <string name="app_notification_show_on_keyguard_summary">Zobrazit upozornění z aplikace na zamykací obrazovce</string>
   <string name="app_notification_no_ongoing_on_keyguard_title">Zakázat trvalé upozornění na zamykací obrazovce</string>
@@ -483,6 +486,7 @@
   <string name="ok">OK</string>
   <string name="profile_menu_delete_title">Smazat</string>
   <string name="profile_action_none">Ponechat nezměněné</string>
+  <string name="profile_action_system">Výchozí systémové</string>
   <string name="profile_action_disable">Vypnout</string>
   <string name="profile_action_enable">Zapnout</string>
   <string name="profile_trigger_a2dp_connect">Při připojení A2DP</string>
@@ -683,6 +687,9 @@
   <string name="settings_cmlicense_activity_title">Právní ujednání CyanogenMod</string>
   <string name="lockpattern_settings_enable_error_path_title">Zobrazit cestu chybného gesta</string>
   <string name="lockpattern_settings_enable_dots_title">Zobrazit body gesta</string>
+  <string name="lock_directly_show_password">Přímo zobrazit zadání hesla</string>
+  <string name="lock_directly_show_pattern">Přímo zobrazit zadání gesta</string>
+  <string name="lock_directly_show_pin">Přímo zobrazit zadání PINu</string>
   <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
   <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
   <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
@@ -701,6 +708,7 @@
   <string name="status_bar_show_weather_summary">Zobrazit počasí nad panelem rychlého nastavení</string>
   <string name="qs_category_title">Panel rychlého nastavení</string>
   <string name="qs_brightness_slider_title">Zobrazit posuvník jasu</string>
+  <string name="qs_hide_tiles_with_sensitive_data">Skrýt dlaždice s citlivými informace při uzamčení</string>
   <string name="qs_order_title">Vybrat a upravit dlaždice</string>
   <string name="add_qs">Přidat novou dlaždici</string>
   <string name="qs_action_delete">Odstranit</string>
@@ -723,6 +731,7 @@
   <string name="qs_tile_compass">Kompas</string>
   <string name="qs_tile_lockscreen">Zámek obrazovky</string>
   <string name="qs_tile_lte">LTE</string>
+  <string name="qs_tile_volume_panel">Panel hlasitosti</string>
   <string name="qs_tile_screen_timeout">Zhasínání obrazovky</string>
   <string name="qs_tile_usb_tether">USB tethering</string>
   <string name="qs_tile_heads_up">Plovoucí upozornění</string>
@@ -901,11 +910,13 @@
   <string name="fingerprint_dialog_title_max_fingers_reached">Maximální počet otisků prstu dosažen</string>
   <string name="fingerprint_dialog_msg_max_fingers_reached">Lze zapsat pouze <xliff:g id="finger" example="5 fingerprints">%d</xliff:g> otiskůs. Smažte existující otisk prstů.</string>
   <string name="fingerprint_title_manage_fingerprints">Správa otisků prstů <xliff:g id="finger">%d</xliff:g>/<xliff:g id="max">%d</xliff:g></string>
+  <string name="manage_fingerprints_description">Otisky prstů umožňují rychlé odemknutí telefonu nebo pořízení fotografií.</string>
   <string name="fingerprint_enrollment_introduction_title">Umístění snímače</string>
   <string name="fingerprint_enrollment_introduction_instructions">Snímač bývá umístěn na přední nebo zadní straně telefonu.</string>
   <string name="fingerprint_enrollment_scan_title">Podržte na 3 sekundy</string>
   <string name="fingerprint_enrollment_scan_instructions">Umístěte ukazováček na snímač otisků prstů. Jakmile ucítíte vibraci, prst zvedněte.</string>
   <string name="fingerprint_enrollment_error_title_wrong_sensor">Zkuste to prosím znovu</string>
+  <string name="fingerprint_enrollment_error_message">Pro zajištění přesnějšího snímání umístěte prst pevně na snímač otisků prstů. Ujistěte se, že používáte stejný prst. Jakmile ucítíte vibrace, prst zvedněte.</string>
   <string name="fingerprint_enrollment_scan_instructions">Umístěte ukazováček na snímač otisků prstů. Jakmile ucítíte vibraci, prst zvedněte.</string>
   <string name="fingerprint_enrollment_break_title">Pokračovat stejnou sílou stisku</string>
   <string name="fingerprint_enrollment_break_instructions">Pokračujte snímáním okrajů prstu. Jakmile ucítíte vibrace, prst zvedněte.</string>
@@ -932,6 +943,7 @@
   <string name="fingerprint_enrollment_error_title_3">Něco se pokazilo</string>
   <string name="fingerprint_enrollment_error_title_4">No jo, zkuste to znovu</string>
   <string name="fingerprint_enrollment_error_title_5">Jejda, došlo k chybě</string>
+  <string name="lockscreen_settings_and_fingerprint">Zámek obrazovky a otisk prstu</string>
   <string name="menu_stats_reset">Resetovat statistiky</string>
   <string name="reset_stats_msg">Bude vynulována historie statistiky baterie</string>
   <string name="dock_battery_not_present">Baterie doku není k dispozici</string>
@@ -939,4 +951,7 @@
   <string name="battery_info_status_charging_dock_usb">Nabíjení pomocí USB doku</string>
   <string name="setup_lock_pattern_size_title">Složitost vzoru</string>
   <string name="setup_lock_pattern_size_details">Kolik uzlů na vzoru chcete používat? Čím více uzlů, tím složitější může být vzor.</string>
+  <string name="lto_download_data_wifi_only">Stáhnutí dat asistovaných GSP</string>
+  <string name="lto_download_data_wifi_only_on">Pomocí jakýchkoliv sítí</string>
+  <string name="lto_download_data_wifi_only_off">Pouze pomocí Wi\u2011Fi sítí</string>
 </resources>

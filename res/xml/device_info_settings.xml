@@ -57,6 +57,12 @@
                     android:targetClass="com.android.settings.deviceinfo.Status" />
         </PreferenceScreen>
 
+        <!-- Contributors cloud -->
+        <PreferenceScreen android:key="contributors_cloud"
+            android:title="@string/contributors_cloud_fragment_title"
+            android:fragment="com.android.settings.contributors.ContributorsCloudFragment" >
+        </PreferenceScreen>
+
         <!-- Legal Information -->
         <PreferenceScreen
                 android:key="container"
@@ -134,6 +140,12 @@
         <Preference android:key="firmware_version" 
                 style="?android:preferenceInformationStyle"
                 android:title="@string/firmware_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Security patch level -->
+        <Preference android:key="security_patch"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/security_patch"
                 android:summary="@string/device_info_default"/>
 
         <!-- Device FCC equipment id -->

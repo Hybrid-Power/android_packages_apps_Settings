@@ -1308,9 +1308,9 @@
     <!-- Fingerprint enrollment error title during first step only -->
     <string name="fingerprint_enrollment_error_title_wrong_sensor">Please try again</string>
     <!-- Fingerprint enrollment error message -->
-    <string name="fingerprint_enrollment_error_message">Place your finger firmly on the fingerprint sensor to ensure an accurate scan. Also make sure you are using the same finger as before. Lift your finger once you feel a vibration.</string>
+    <string name="fingerprint_enrollment_error_message">Place your finger on the fingerprint sensor to ensure an accurate scan. Also make sure you are using the same finger as before. Lift your finger once you feel a vibration.</string>
     <!-- Fingerprint enrollment error instructions -->
-    <string name="fingerprint_enrollment_scan_instructions">Place your finger firmly on the fingerprint sensor to ensure an accurate scan. Lift your finger once you feel a vibration.</string>
+    <string name="fingerprint_enrollment_scan_instructions">Place your finger on the fingerprint sensor to ensure an accurate scan. Lift your finger once you feel a vibration.</string>
     <!-- Fingerprint enrollment half way break title -->
     <string name="fingerprint_enrollment_break_title">Continue with current grip</string>
     <!-- Fingerprint enrollment introduction instructions -->
@@ -1352,9 +1352,27 @@
     <string name="fingerprint_enrollment_error_title_3">Hmm, something went wrong</string>
     <string name="fingerprint_enrollment_error_title_4">Uh oh, try again</string>
     <string name="fingerprint_enrollment_error_title_5">Whoops, there was an error</string>
+    <!-- Title for lockscreen settings, on dashboard, that is only used when a device supports
+         the fingerprint feature -->
+    <string name="lockscreen_settings_and_fingerprint">Lock screen &amp; fingerprint</string>
 
     <!-- Lock screen setup wizard pattern complexity -->
     <string name="setup_lock_pattern_size_title">Pattern complexity</string>
     <string name="setup_lock_pattern_size_details">How many nodes would you like to use with your pattern? The more nodes, the more complex the pattern can be.</string>
 
+    <!-- Contributors cloud activity -->
+    <string name="contributors_cloud_fragment_title">Contributors</string>
+    <string name="contributors_cloud_loading_message">Loading contributors data\u2026</string>
+    <string name="contributors_cloud_failed_message">Cannot load contributors data</string>
+    <string name="contributor_info_menu">Contributor info</string>
+    <string name="contributor_info_msg">
+        <![CDATA[<b>Name:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+                 <b>Nick:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
+                 <b>Commits:</b> <xliff:g id="commits">%3$s</xliff:g><br/><br/>
+                 <b>Rank:</b> <xliff:g id="rank">%4$s</xliff:g>]]></string>
+    <string name="contributions_info_menu">Contributions info</string>
+    <string name="contributions_info_msg">
+        <![CDATA[<b>Total contributors:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+                 <b>Total commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
+                 <b>Last update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
 </resources>

@@ -249,6 +249,7 @@
   <string name="privacy_guard_reset_text">Επαναφορά αδειών;</string>
   <string name="privacy_guard_help_text">Εδώ μπορείτε να επιλέξετε για ποιές εφαρμογές θα είναι ενεργή η Προστασία Απορρήτου απλά πιέζοντας πάνω τους. Οι επιλεγμένες εφαρμογές δεν θα μπορούν να έχουν πρόσβαση στα προσωπικά σας δεδομένα, όπως επαφές, μηνύματα ή το αρχείο κλήσεων. Πιέζοντας παρατεταμένα μια επιλογή, ανοίγει η οθόνη λεπτομερειών της εφαρμογής.\n\nΟι ενσωματωμένες εφαρμογές δεν εμφανίζονται από προεπιλογή αλλά μπορείτε να τις εμφανίσετε επιλέγοντας την σχετική ρύθμιση στο μενού.</string>
   <string name="privacy_guard_manager_show_system_apps">Εμφάνιση ενσωματωμένων εφαρμογών</string>
+  <string name="privacy_guard_notification_title">Εμφάνιση ειδοποίησης</string>
   <string name="app_ops_btn_text">Τροποποίηση</string>
   <string name="increasing_ring_volume_option_title">Αυξανόμενη ένταση κουδουνίσματος</string>
   <string name="increasing_ring_min_volume_title">Αρχική ένταση</string>
@@ -482,6 +483,7 @@
   <string name="ok">ΟΚ</string>
   <string name="profile_menu_delete_title">Διαγραφή</string>
   <string name="profile_action_none">Να μη γίνει αλλαγή</string>
+  <string name="profile_action_system">Προεπιλογή συστήματος</string>
   <string name="profile_action_disable">Απενεργοποίηση</string>
   <string name="profile_action_enable">Ενεργοποίηση</string>
   <string name="profile_trigger_a2dp_connect">Κατά τη σύνδεση A2DP</string>
@@ -682,6 +684,9 @@
   <string name="settings_cmlicense_activity_title">Νομικές πληροφορίες CyanogenMod</string>
   <string name="lockpattern_settings_enable_error_path_title">Εμφάνιση λάθος μοτίβου</string>
   <string name="lockpattern_settings_enable_dots_title">Εμφάνιση τελειών μοτίβου</string>
+  <string name="lock_directly_show_password">Άμεση εμφάνιση εισόδου κωδικού</string>
+  <string name="lock_directly_show_pattern">Άμεση εμφάνιση εισόδου μοτίβου</string>
+  <string name="lock_directly_show_pin">Άμεση εμφάνιση εισόδου PIN</string>
   <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
   <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα όταν δωθεί το σωστό PIN ή ο σωστός κωδικός</string>
   <string name="unlock_scramble_pin_layout_title">Ανακάτεμα διάταξης</string>
@@ -700,6 +705,7 @@
   <string name="status_bar_show_weather_summary">Εμφάνιση του καιρού πάνω από τον πίνακα Γρήγορων ρυθμίσεων</string>
   <string name="qs_category_title">Πίνακας Γρήγορων ρυθμίσεων</string>
   <string name="qs_brightness_slider_title">Εμφάνιση ρυθμιστικού φωτεινότητας</string>
+  <string name="qs_hide_tiles_with_sensitive_data">Απόκρυψη ευαίσθητων πλακιδίων όταν η συσκευή είναι κλειδωμένη</string>
   <string name="qs_order_title">Επιλέξτε και ταξινομήστε τα πλακίδια</string>
   <string name="add_qs">Προσθήκη νέου πλακιδίου</string>
   <string name="qs_action_delete">Διαγραφή</string>
@@ -937,6 +943,7 @@
   <string name="fingerprint_enrollment_error_title_3">Χμμ, κάτι πήγε στραβά</string>
   <string name="fingerprint_enrollment_error_title_4">Ωχ, προσπαθήστε ξανά</string>
   <string name="fingerprint_enrollment_error_title_5">Ουπς, υπήρξε ένα πρόβλημα</string>
+  <string name="lockscreen_settings_and_fingerprint">Οθόνη κλειδώματος &amp; δακτυλικό αποτύπωμα</string>
   <string name="menu_stats_reset">Επαναφορά στατιστικών</string>
   <string name="reset_stats_msg">Θα γίνει επαναφορά των στατιστικών μπαταρίας</string>
   <string name="dock_battery_not_present">Δεν υπάρχει μπαταρία dock</string>
@@ -944,4 +951,7 @@
   <string name="battery_info_status_charging_dock_usb">Φόρτιση μέσω USB βάσης σύνδεσης</string>
   <string name="setup_lock_pattern_size_title">Πολυπλοκότητα μοτίβου</string>
   <string name="setup_lock_pattern_size_details">Πόσους κόμβους θα θέλατε να χρησιμοποιήσετε με το μοτίβο σας; Όσο περισσότεροι κόμβοι, τόσο πιο σύνθετο μπορεί να είναι το μοτίβο.</string>
+  <string name="lto_download_data_wifi_only">Λήψη βοηθητικών δεδομένων GPS</string>
+  <string name="lto_download_data_wifi_only_on">Μέσω όλων των δικτύων</string>
+  <string name="lto_download_data_wifi_only_off">Μόνο μέσω δικτύων Wi\u2011Fi</string>
 </resources>

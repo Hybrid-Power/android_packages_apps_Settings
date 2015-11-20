@@ -71,6 +71,7 @@ import android.widget.SearchView;
 
 import com.android.internal.util.ArrayUtils;
 import com.android.internal.util.XmlUtils;
+import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.accessibility.AccessibilitySettings;
 import com.android.settings.accessibility.CaptionPropertiesFragment;
 import com.android.settings.accounts.AccountSettings;
@@ -80,6 +81,7 @@ import com.android.settings.applications.ManageApplications;
 import com.android.settings.applications.ProcessStatsUi;
 import com.android.settings.blacklist.BlacklistSettings;
 import com.android.settings.bluetooth.BluetoothSettings;
+import com.android.settings.contributors.ContributorsCloudFragment;
 import com.android.settings.cyanogenmod.DisplayRotation;
 import com.android.settings.dashboard.DashboardCategory;
 import com.android.settings.dashboard.DashboardSummary;
@@ -326,7 +328,8 @@ public class SettingsActivity extends Activity
             NotificationManagerSettings.class.getName(),
             LockScreenSettings.class.getName(),
             LiveDisplay.class.getName(),
-            DisplayRotation.class.getName()
+            DisplayRotation.class.getName(),
+            ContributorsCloudFragment.class.getName()
     };
 
 
@@ -1097,6 +1100,18 @@ public class SettingsActivity extends Activity
                                     com.android.internal.R.styleable.PreferenceHeader_title);
                             if (tv != null && tv.type == TypedValue.TYPE_STRING) {
                                 if (tv.resourceId != 0) {
+                                    // Need to adjust the title for lockscreen settings if the
+                                    // device supports the fingerprint feature
+                                    if (tile.id == R.id.lockscreen_settings) {
+                                        boolean isPrimary =
+                                                UserHandle.myUserId() == UserHandle.USER_OWNER;
+                                        boolean hasFingerprint = new LockPatternUtils(this)
+                                                .isFingerprintInstalled(this);
+                                        if (isPrimary && hasFingerprint) {
+                                            tv.resourceId =
+                                                    R.string.lockscreen_settings_and_fingerprint;
+                                        }
+                                    }
                                     tile.titleRes = tv.resourceId;
                                 } else {
                                     tile.title = tv.string;
@@ -1464,9 +1479,12 @@ public class SettingsActivity extends Activity
      * by default in an overlay.
      */
     public static boolean showAdvancedPreferences(Context context) {
-        return (android.provider.Settings.Secure.getInt(context.getContentResolver(),
-                android.provider.Settings.Secure.ADVANCED_MODE, 1) == 1)
-                && context.getResources().getBoolean(
+        final boolean forceAdvancedMode = context.getResources().getBoolean(
                 com.android.internal.R.bool.config_advancedSettingsMode);
+        if (forceAdvancedMode) {
+            return true;
+        }
+        return (android.provider.Settings.Secure.getInt(context.getContentResolver(),
+                android.provider.Settings.Secure.ADVANCED_MODE, 0) == 1);
     }
 }
