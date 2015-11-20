@@ -39,6 +39,11 @@
         android:title="@string/recents_options_title"
         android:fragment="com.android.settings.sudamod.RecentsSettings" />
 
+    <PreferenceScreen
+        android:fragment="com.android.settings.swipe.SwipeBackLayout"
+        android:key="swipe_back_layout_settings"
+        android:title="@string/title_swipe_back_layout" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

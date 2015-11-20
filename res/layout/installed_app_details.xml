@@ -406,6 +406,13 @@
                 android:layout_marginStart="12dip"
                 android:layout_gravity="start"
                 android:text="@string/enable_compatibility" />
+    <!-- Swipe back state for this package -->
+            <CheckBox android:id="@+id/swipe_back_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dip"
+                android:layout_gravity="start"
+                android:text="@string/app_swipe_back_label_black" />
         </LinearLayout>
 
         <!-- Permissions section -->
